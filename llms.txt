@@ -1,0 +1,8 @@
+# dsh-timesheet
+
+Timesheet for DeepSeek Harness (dsh): turn-based time tracking from session logs — totals, per-day, per-project, per-provider, per-source rollups, tool-call counts, failure rates, time-to-first-token.
+
+- Install into dsh: `dsh plugin add dsh-timesheet`
+- CLI: `npx dsh-timesheet <dir> [--json]`
+- Agent tool: `timesheet(dir)` — returns dsh-timesheet/v1 reports
+- Reads *.jsonl session logs only; zero runtime dependencies
