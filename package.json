@@ -57,5 +57,16 @@
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
-  }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoahdev/dsh-timesheet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zoahdev/dsh-timesheet/issues"
+  },
+  "homepage": "https://github.com/zoahdev/dsh-timesheet"
 }
